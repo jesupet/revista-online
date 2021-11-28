@@ -1,0 +1,32 @@
+.contenido {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.listad-noticias {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        width: 70%;
+    }
+}
+
+.noticia {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cuerpo {
+    height: 70vh;
+    overflow: hidden;
+}
+.cuerpo img {
+    width: 100%;
+    
+}
+
+.cuerpo p {
+    padding: 5px 10px;
+}
+

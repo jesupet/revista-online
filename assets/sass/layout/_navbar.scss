@@ -1,0 +1,40 @@
+.menu {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    display: inline-block;
+}
+
+.menu__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+.menu__nav {
+    text-align: right;
+    margin: 0 auto;
+    width: 50%;
+    float:right;
+}
+
+
+
+.menu__nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.input-menu {
+    border-radius: 30px;
+}
+
+.nav__item--hidden {
+    visibility: hidden;
+    display: inline-block;
+    @media screen and (min-width: 768px) {
+        visibility: visible;
+    }
+}
